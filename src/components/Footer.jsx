@@ -50,8 +50,16 @@ const Footer = () => {
             {[
               { icon: <FaFacebook size={28} />, color: "#1877f2", href: "#" },
               { icon: <FaTwitter size={28} />, color: "#1da1f2", href: "#" },
-              { icon: <FaLinkedin size={28} />, color: "#0a66c2", href: "#" },
-              { icon: <FaGithub size={28} />, color: "#333", href: "#" },
+              {
+                icon: <FaLinkedin size={28} />,
+                color: "#0a66c2",
+                href: "http://www.linkedin.com/in/rashima-rasangi-6a82a5328",
+              },
+              {
+                icon: <FaGithub size={28} />,
+                color: "#333",
+                href: "https://github.com/rashimarasangi",
+              },
             ].map((social, index) => (
               <motion.a
                 key={index}
@@ -60,6 +68,7 @@ const Footer = () => {
                 className="text-gray-200 transition-colors duration-300"
               >
                 {social.icon}
+                {console.log(social.href)}
               </motion.a>
             ))}
           </div>
