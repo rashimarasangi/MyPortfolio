@@ -14,10 +14,10 @@ const Footer = () => {
             className="text-center md:text-left"
           >
             <h3 className="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-coral-500 mb-4">
-              Yousaf
+              Rashima Rasangi
             </h3>
             <p className="text-gray-200 leading-relaxed">
-              Full-Stack Developer crafting innovative solutions from the USA.
+              Full-Stack Developer.
             </p>
           </motion.div>
           <motion.div
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-200 text-center md:text-left">
-            &copy; {new Date().getFullYear()} Yousaf. All rights reserved.
+            &copy; {new Date().getFullYear()} All rights reserved.
           </p>
           <div className="flex space-x-6">
             {[

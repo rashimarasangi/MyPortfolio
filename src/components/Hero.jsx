@@ -86,7 +86,10 @@ const Hero = () => {
         >
           <a href="#contact">Let's Connect</a>
         </motion.button>
-        <motion.button
+
+        <motion.a
+          href="/Rashima_Rasangi_Resume.pdf"
+          download="Rashima_Rasangi_Resume.pdf"
           whileHover={{
             scale: 1.1,
             boxShadow: "0 0 20px rgba(255, 107, 107, 0.5)",
@@ -95,7 +98,7 @@ const Hero = () => {
           className="border-2 border-cyan-400 text-cyan-400 px-10 py-4 rounded-full text-lg font-semibold hover:bg-cyan-400 hover:text-white transition-all duration-300"
         >
           Download Resume
-        </motion.button>
+        </motion.a>
       </motion.div>
     </motion.div>
   );

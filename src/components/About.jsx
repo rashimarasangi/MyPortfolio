@@ -104,9 +104,15 @@ const About = () => {
               className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6"
             >
               {[
-                { value: "4+", label: "Years Experience" },
-                { value: "60+", label: "Projects Completed" },
-                { value: "15+", label: "Happy Clients" },
+                {
+                  value: "BSc (Hons)",
+                  label: "Computing & Information Systems",
+                },
+                {
+                  value: "SUSL",
+                  label: "Sabaragamuwa University of Sri Lanka",
+                },
+                { value: "10+", label: "Projects Completed" },
               ].map((stat, index) => (
                 <motion.div
                   key={index}
