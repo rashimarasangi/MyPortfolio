@@ -20,27 +20,6 @@ const Footer = () => {
               Full-Stack Developer.
             </p>
           </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="md:col-span-2"
-          >
-            <form className="flex flex-col sm:flex-row items-center justify-center md:justify-end gap-4">
-              <input
-                type="email"
-                placeholder="Join my newsletter"
-                className="w-full sm:w-auto flex-grow p-4 rounded-xl bg-gray-900/50 border border-gray-700 focus:outline-none focus:border-coral-500 transition-all duration-300"
-              />
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                className="w-full sm:w-auto bg-gradient-to-r from-cyan-400 to-coral-500 text-white px-8 py-4 rounded-xl shadow-lg transition-all duration-300"
-                type="submit"
-              >
-                Subscribe
-              </motion.button>
-            </form>
-          </motion.div>
         </div>
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-200 text-center md:text-left">
@@ -48,8 +27,6 @@ const Footer = () => {
           </p>
           <div className="flex space-x-6">
             {[
-              { icon: <FaFacebook size={28} />, color: "#1877f2", href: "#" },
-              { icon: <FaTwitter size={28} />, color: "#1da1f2", href: "#" },
               {
                 icon: <FaLinkedin size={28} />,
                 color: "#0a66c2",
@@ -57,7 +34,7 @@ const Footer = () => {
               },
               {
                 icon: <FaGithub size={28} />,
-                color: "#333",
+                color: "#0a66c2",
                 href: "https://github.com/rashimarasangi",
               },
             ].map((social, index) => (
