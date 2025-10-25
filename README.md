@@ -6,7 +6,7 @@ This project showcases my professional journey, skills, services, and projects a
 
 ## 🚀 Live Demo
 
-👉 [View Portfolio](https://rashimarasangi.github.io/MyPortfolio/) *(Add your deployed link here once available)*
+👉 [View Portfolio](https://rashimarasangi.netlify.app/) *(Add your deployed link here once available)*
 
 
 ## 🧩 Features
